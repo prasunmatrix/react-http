@@ -2,6 +2,7 @@ import logo from './logo.svg';
 import './App.css';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
+import HookCounter from './components/HookCounter';
 
 function App() {
   return (
@@ -21,7 +22,8 @@ function App() {
         </a>
       </header> */}
       <PostList /><br/>
-      <PostForm /> 
+      <PostForm /><br/>
+      <HookCounter /> 
     </div>
   );
 }
