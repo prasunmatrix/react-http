@@ -3,6 +3,9 @@ import './App.css';
 import PostList from './components/PostList';
 import PostForm from './components/PostForm';
 import HookCounter from './components/HookCounter';
+import HookCounterTwo from './components/HookCounterTwo';
+import HookCounterThree from './components/HookCounterThree';
+import HookCounterFour from './components/HookCounterFour';
 
 function App() {
   return (
@@ -23,7 +26,10 @@ function App() {
       </header> */}
       <PostList /><br/>
       <PostForm /><br/>
-      <HookCounter /> 
+      <HookCounter /><br/>
+      <HookCounterTwo /><br/> 
+      <HookCounterThree /><br/>
+      <HookCounterFour /><br/>
     </div>
   );
 }
