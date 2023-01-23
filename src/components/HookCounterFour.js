@@ -4,9 +4,9 @@ function HookCounterFour() {
   const [items,setItem]=useState([])
   
   const addItem = () =>{
-    setItem([{
+    setItem([...items,{
       id:items.length,
-      value:Math.floor(Math.random()*10)+1
+      value:Math.floor(Math.random()*100)+1
     }])
   }
 
